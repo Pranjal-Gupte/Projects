@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>News App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel='stylesheet' href='style.css'>
+</head>
+
+<body class="m-0 p-0">
+    <div class="container-fluid m-0 p-0">
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <img src="/Ai-logo.png" alt="N/A" style="width: 45px; padding-left: 5px; "><a
+                        class="navbar-brand text-light" href="#">News</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#general" id="general">General</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#business" id="business">Business</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#sports" id="sports">Sports</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#technology"
+                                    id="technology">Technology</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#entertainment" id="entertainment">Entertainment</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="text" id="newsQuery" placeholder="Search News...">
+                            <button class="btn btn-outline-light" id="searchBtn" type="button">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="row" id="newstype"></div>
+        <div class="row" id="newsdetails">
+
+        </div>
+        <div>
+            <div class="bottom">
+                <center>
+                    <span class="credit">Created By <a href="#">Pranjal Gupte</a> | </span>
+                    <span class="far fa-copyright"></span><span> <a href="#">yourwebsite.com</a>
+                        <script>document.write(new Date().getFullYear());</script> All rights reserved.<br />Powered by
+                        <a href="https://infinityfree.net/" target="_blank">Infinityfree.net</a>
+                    </span>
+                </center>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
